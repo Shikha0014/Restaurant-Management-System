@@ -9,35 +9,35 @@ well-suited for smaller cafes or restaurants seeking a simple, text-based soluti
 manage orders efficiently.
 
 ## Project Objectives
-● Display an organized menu for customers.
-● Handle food ordering in a user-friendly, interactive way.
+● Display an organized menu for customers.<br>
+● Handle food ordering in a user-friendly, interactive way.<br>
 ● Automatically calculate the total bill based on ordered items and generate a
 receipt.
 
 ## Data Collection
 The (new_age_indian_cafe_menu.csv) is a random CSV file generated using the
 new age technology of the large language model.
-In this two varieties of LLMs were used to create the data,
-● ChatGPT
+In this two varieties of LLMs were used to create the data,<br>
+● ChatGPT<br>
 ● ClaudeAI
 
 ## Key Features and Functionalities
 ● Menu Display: The view_menu() function reads a CSV file
 (new_age_indian_cafe_menu.csv) and displays the menu in a formatted
-table using the tabulate library.
+table using the tabulate library.<br>
 ● Order Processing: The order() function enables customers to add items to
 their order by entering item names. It includes input validation to manage
-incorrect entries and allows modifications to the order.
+incorrect entries and allows modifications to the order.<br>
 ● Billing System: Upon completing the order, the system calculates the total cost,
 includes service tax and generates a final bill. It also displays itemized details for
 clarity.
 
 ## Technical Specifications
 ### Libraries Used:
-○ pandas: Handles data from the CSV menu file.
-○ tabulate: Formats menu and billing outputs into readable tables.
+○ pandas: Handles data from the CSV menu file.<br>
+○ tabulate: Formats menu and billing outputs into readable tables.<br>
 ○ warnings: Suppresses terminal warnings to maintain a clean user
 experience.
 ### Data Structure:
-○ MENU: A global variable storing the restaurant's menu data.
+○ MENU: A global variable storing the restaurant's menu data.<br>
 ○ ORDER: A global list storing items selected by the customer.
